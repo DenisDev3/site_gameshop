@@ -5,11 +5,14 @@
 }
 
 header,
-section h2 {
+section h2,
+section h3,
+form button {
     font-family: 'Bungee', cursive;
+    font-weight: normal;
 }
 
-body {
+body, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,11 +20,6 @@ header {
     padding: 16px 0;
     background-color: #182c61;
     color: ghostwhite;
-}
-
-header h1,
-section h2 {
-    font-weight: normal;
 }
 
 header nav li {
@@ -79,4 +77,53 @@ section p {
 
 .store-front {
     margin-right: 32px;
+}
+.Social-links img {
+    height: 24px;
+}
+
+.Social-links li {
+    display: inline;
+}
+
+.Social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #213c86;
 }
